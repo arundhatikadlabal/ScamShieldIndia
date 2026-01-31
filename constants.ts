@@ -91,16 +91,54 @@ export const SCAM_TEMPLATES: ScamTemplate[] = [
     id: "digital_arrest",
     title: "Digital Arrest / Law Enforcement Impersonation",
     keywords: [
-      "cbi", "police", "cyber crime", "cybercell", "crime branch", "customs",
-      "court", "supreme court", "warrant", "summons", "fir", "case", "legal action",
-      "arrest", "jail",
-      "video call", "video called", "whatsapp call", "whatsapp video", "skype", "telegram call",
-      "aadhaar", "aadhar", "adhaar", "pan", "kyc",
-      "freeze", "freezed", "froze", "blocked", "block", "suspend", "suspended", "deactivate", "deactivated",
-      "pay", "payment", "transfer", "send money", "fine", "penalty",
-      "lakhs", "lakh", "2 lakh", "rs", "rupees",
-      "owe", "owed", "due", "outstanding"
-    ],
+  // Core phrase variations
+  "digital arrest", "digital-arrest", "online arrest", "virtual arrest", "house arrest", "custody",
+  "you are under arrest", "you are arrested", "arrest order", "arrest warrant", "warrant",
+
+  // Police / law enforcement names
+  "police", "cop", "inspector", "sub inspector", "si", "dsp", "sp", "commissioner",
+  "crime branch", "cyber police", "cyber cell", "crime cell", "cybercrime",
+  "cbi", "cid", "ed", "enforcement directorate", "ncb", "narcotics control bureau",
+  "income tax", "gst", "customs", "dri", "directorate of revenue intelligence",
+  "interpol", "crime bureau",
+
+  // Legal intimidation
+  "fir", "case filed", "complaint filed", "charges", "chargesheet", "section", "ipc", "crpc",
+  "court", "judge", "supreme court", "high court", "warrant issued", "summons",
+  "notice", "legal notice", "non bailable", "non-bailable", "nbw",
+  "warrant number", "case number", "file number", "station diary", "diary number",
+
+  // Typical accusations used in “digital arrest”
+  "money laundering", "laundering", "hawala", "drug parcel", "narcotics", "mdma", "charas", "ganja",
+  "illegal parcel", "courier", "fedex", "dhl", "blue dart", "shipment", "package",
+  "passport fraud", "sim fraud", "identity theft", "bank fraud", "upi fraud",
+  "child pornography", "pornography case", "human trafficking", "terror funding",
+
+  // Video call + “don’t cut call” pressure
+  "video call", "whatsapp video", "whatsapp call", "skype", "google meet", "zoom",
+  "stay on call", "do not disconnect", "don't disconnect", "keep camera on",
+  "24 hours surveillance", "under monitoring", "live verification",
+
+  // Aadhaar/PAN/bank identity pressure
+  "aadhaar", "aadhar", "pan", "pancard", "passport", "voter id", "driving license",
+  "kyc", "kyc verification", "your kyc", "bank account freeze", "freeze account",
+  "account blocked", "account freeze", "aadhar blocked", "aadhaar blocked",
+
+  // Money demand & transfer channels
+  "pay fine", "penalty", "settlement", "compromise", "bail", "bail amount",
+  "security deposit", "verification fee", "processing fee",
+  "transfer money", "send money", "pay now", "pay immediately", "urgent payment",
+  "upi", "upi id", "upi pin", "scan qr", "qr code", "bank transfer", "neft", "rtgs", "imps",
+  "crypto", "bitcoin", "usdt", "gift card", "voucher",
+
+  // Threat language
+  "immediately", "within 10 minutes", "within 30 minutes", "final warning", "last warning",
+  "legal action", "strict action", "warrant will be issued", "police will come",
+  "you will be arrested", "you will be jailed", "go to jail", "court order",
+  "strictly confidential", "do not tell anyone", "don't tell anyone", "keep silent",
+  "your call is being recorded", "under investigation", "criminal case"
+]
+
     explanation: "Scammers pose as officers via video calls, claiming you're under 'Digital Arrest' for illegal parcels or money laundering.",
     actions_A: [
       { title: "Disconnect & Block", steps: ["Hang up the call immediately.", "Do not stay on the line for 'verification'.", "Block the number on WhatsApp/Phone."], priority: 1 },
