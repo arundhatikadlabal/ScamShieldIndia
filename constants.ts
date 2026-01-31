@@ -92,7 +92,7 @@ export const SCAM_TEMPLATES: ScamTemplate[] = [
     title: "Digital Arrest / Law Enforcement Impersonation",
     keywords: [
   // Core phrase variations
-  "digital arrest", "digital-arrest", "online arrest", "virtual arrest", "house arrest", "custody",
+  "digital arrest", "digital-arrest", "online arrest", "virtual arrest", "house arrest", "money will be sent back", "custody",
   "you are under arrest", "you are arrested", "arrest order", "arrest warrant", "warrant",
 
   // Police / law enforcement names
@@ -126,7 +126,7 @@ export const SCAM_TEMPLATES: ScamTemplate[] = [
 
   // Money demand & transfer channels
   "pay fine", "penalty", "settlement", "compromise", "bail", "bail amount",
-  "security deposit", "verification fee", "processing fee",
+  "security deposit", "airport parcel", "verification fee", "processing fee",
   "transfer money", "send money", "pay now", "pay immediately", "urgent payment",
   "upi", "upi id", "upi pin", "scan qr", "qr code", "bank transfer", "neft", "rtgs", "imps",
   "crypto", "bitcoin", "usdt", "gift card", "voucher",
