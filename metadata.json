@@ -1,0 +1,8 @@
+{
+  "name": "Scam Shield for Families (India)",
+  "description": "A safety-first agentic AI app designed to protect Indian families from digital scams. It analyzes messages, assesses risk, provides calm next steps, ready-to-use scripts, and detailed reporting documentation.",
+  "requestFramePermissions": [
+    "microphone",
+    "camera"
+  ]
+}
