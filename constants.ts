@@ -137,7 +137,7 @@ export const SCAM_TEMPLATES: ScamTemplate[] = [
   "you will be arrested", "you will be jailed", "go to jail", "court order",
   "strictly confidential", "do not tell anyone", "don't tell anyone", "keep silent",
   "your call is being recorded", "under investigation", "criminal case"
-]
+],
 
     explanation: "Scammers pose as officers via video calls, claiming you're under 'Digital Arrest' for illegal parcels or money laundering.",
     actions_A: [
